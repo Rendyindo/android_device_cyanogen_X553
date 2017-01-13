@@ -1,0 +1,2 @@
+add_lunch_combo cm_X553-eng
+add_lunch_combo cm_X553-userdebug

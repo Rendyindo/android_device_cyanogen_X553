@@ -16,6 +16,11 @@
 
 # Prebuilt kernel
 TARGET_PREBUILT_KERNEL := device/Infinix/X553/prebuilt/kernel
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+	LOCAL_KERNEL := device/Infinix/X553/prebuilt/kernel
+else
+	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
