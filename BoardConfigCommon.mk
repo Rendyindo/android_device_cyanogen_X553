@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := device/cyanogen/msm8916-common
+VENDOR_PATH := device/Infinix/X553
 
 # Include board config fragments
 include $(VENDOR_PATH)/board/*.mk
