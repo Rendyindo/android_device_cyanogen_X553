@@ -53,9 +53,6 @@ TARGET_PREBUILT_KERNEL := device/Infinix/X553/prebuilt/kernel
 # TARGET IMAGES
 TARGET_USERIMAGES_USE_EXT4 := true
 
-# RECOVERY
-TARGET_RECOVERY_FSTAB := device/Infinix/X553/recovery/root/twrp.fstab
-
 # PARTTIONS
 # We need the partitions size in decimal
 # Use cat proc/partitions via adb, then block size * 1024

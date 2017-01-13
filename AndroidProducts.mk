@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cm_X553.mk
+    $(LOCAL_DIR)/X553.mk
